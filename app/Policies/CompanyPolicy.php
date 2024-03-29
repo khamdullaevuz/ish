@@ -32,16 +32,16 @@ class CompanyPolicy
 
     public function delete(User $user, Company $company)
     {
-        return $user->company_id === $company->id || $user->company_id === null;
+        return $user->company_id === null;
     }
 
     public function restore(User $user, Company $company)
     {
-        return $user->company_id === $company->id || $user->company_id === null;
+        return $user->company_id === null;
     }
 
     public function forceDelete(User $user, Company $company)
     {
-        return $user->company_id === $company->id || $user->company_id === null;
+        return $user->company_id === null;
     }
 }
