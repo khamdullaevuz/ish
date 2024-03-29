@@ -45,3 +45,6 @@ email: admin@ish.test
 password: password
 ```
 
+### Documentation
+
+https://documenter.getpostman.com/view/19487478/2sA35G3gqW
